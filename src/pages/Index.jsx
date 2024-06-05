@@ -1,5 +1,6 @@
 import { Box, Container, Flex, Heading, Text, VStack } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
+import Footer from "../components/Footer.jsx";
 
 const Index = () => {
   return (
@@ -19,6 +20,7 @@ const Index = () => {
           <Text fontSize="lg">This is a placeholder for future content.</Text>
         </VStack>
       </Box>
+      <Footer />
     </Container>
   );
 };
