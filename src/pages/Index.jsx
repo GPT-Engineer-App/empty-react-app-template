@@ -12,6 +12,7 @@ const Index = () => {
         <Box>
           <Link to="/" style={{ margin: "0 10px", color: "white" }}>Home</Link>
           <Link to="/about" style={{ margin: "0 10px", color: "white" }}>About</Link>
+          <Link to="/idea" style={{ margin: "0 10px", color: "white" }}>Idea</Link>
         </Box>
       </Flex>
       <Box as="main" mt={4}>
